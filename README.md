@@ -1,3 +1,31 @@
+Usage:
+``` javascript
+$ npm remove element-ui
+$ npm i vight -S
+``` 
+``` javascript
+// vue.config.js
+module.exports = {
+  configureWebpack: {
+    resolve: {
+      alias: {
+        'element-ui': 'vight',
+      },
+    },
+  },
+};
+```
+// tsconfig.json
+``` javascript
+{
+  "compilerOptions": {
+    "paths": {
+      "element-ui": ["node_modules/vight"],
+      "element-ui/*": ["node_modules/vight/*"]
+    }
+  }
+}
+```
 <p align="center">
   <img src="https://cdn.rawgit.com/ElemeFE/element/dev/element_logo.svg">
 </p>

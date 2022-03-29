@@ -1,6 +1,6 @@
 {
   "name": "vlight",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "A Component Library for Vue.js.",
   "main": "lib/element-ui.common.js",
   "files": [
@@ -45,7 +45,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElemeFE/element.git"
+    "url": "git@github.com:lsCloud109/vlight.git"
   },
   "homepage": "http://element.eleme.io",
   "keywords": [
@@ -55,7 +55,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ElemeFE/element/issues"
+    "url": "https://github.com/lsCloud109/vlight/issues"
   },
   "unpkg": "lib/index.js",
   "style": "lib/theme-chalk/index.css",
